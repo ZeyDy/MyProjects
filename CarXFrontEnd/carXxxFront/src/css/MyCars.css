@@ -1,0 +1,46 @@
+.main-container {
+    padding: 20px;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .car-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car-info {
+    flex-grow: 1;
+    text-transform: uppercase;
+  }
+  
+  .car-actions button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .car-actions button:hover {
+    background-color: #3498db;
+  }
+  
+  .error {
+    color: red;
+  }
+  
